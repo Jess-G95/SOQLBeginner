@@ -1,0 +1,6 @@
+SELECT Birthdate
+  FROM Contact
+WHERE Birthdate >= 2000-01-01
+AND Birthdate <= 2000-12-31
+AND (Birthdate < 2000-05-01
+OR Birthdate >= 2000-06-01)
