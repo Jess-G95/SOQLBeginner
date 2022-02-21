@@ -1,0 +1,5 @@
+SELECT AccountId,
+       COUNT(Id),
+       MAX(Birthdate)
+FROM Contact
+GROUP BY AccountId
