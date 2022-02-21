@@ -1,0 +1,4 @@
+SELECT Email
+FROM Contact
+WHERE Email LIKE '%@outlook.com'
+OR Account.Industry = 'Government'
