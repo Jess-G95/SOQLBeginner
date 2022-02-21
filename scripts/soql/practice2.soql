@@ -1,0 +1,4 @@
+SELECT Id
+FROM Account
+WHERE NumberOFEmployees > 50
+AND AnnualRevenue >= 100000
