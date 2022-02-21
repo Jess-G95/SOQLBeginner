@@ -1,0 +1,5 @@
+SELECT Description,
+       (SELECT Name
+       FROM Contacts
+       WHERE Email LIKE '%5%')
+FROM Account
