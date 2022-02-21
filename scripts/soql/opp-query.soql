@@ -1,0 +1,7 @@
+SELECT OwnerID,
+       StageName,
+       CloseDate,
+       Amount,
+       Probability,
+       IsClosed
+FROM   Opportunity
