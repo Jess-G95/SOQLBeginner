@@ -1,0 +1,6 @@
+SELECT Id,
+       Name,
+       PermissionsViewAllData,
+       PermissionsModifyAllData,
+       PermissionsAuthorApex
+FROM   Profile
