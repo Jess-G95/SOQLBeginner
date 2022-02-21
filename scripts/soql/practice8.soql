@@ -1,0 +1,4 @@
+SELECT Name
+FROM Account
+ORDER BY AnnualRevenue DESC, NumberOfEmployees ASC
+LIMIT 10
