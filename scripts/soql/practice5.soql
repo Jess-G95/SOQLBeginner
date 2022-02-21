@@ -1,0 +1,6 @@
+SELECT ID
+FROM Contact
+WHERE (Title = 'Sales Manager'
+AND Account.AnnualRevenue > 90000)
+OR (Account.Industry = 'Finance'
+AND Account.NumberOFEmployees > 75)
