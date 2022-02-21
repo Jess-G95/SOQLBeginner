@@ -1,0 +1,6 @@
+SELECT Name
+FROM Contact
+WHERE Title LIKE '%Sales%'
+OR (Title = 'CEO'
+AND (Account.Industry = 'Technology'
+OR Account.Industry = 'Finance'))
