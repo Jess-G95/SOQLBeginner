@@ -1,0 +1,6 @@
+SELECT Name,
+       Email,
+       CreatedById,
+       CreatedDate,
+       LastModifiedById
+FROM Contact
