@@ -1,0 +1,8 @@
+SELECT Id,
+       FirstName,
+       Phone
+FROM   Contact
+WHERE  Department IN ('Executive Team', 'Finance', 'Technology')
+AND    Phone != null
+AND    Birthdate < 1995-06-15
+AND    Title LIKE '%VP%'
